@@ -1,0 +1,11 @@
+button colour code
+#cdab63
+#fcee8c
+#c8a65c
+
+balance colour code
+#eeda80
+#d6b868
+
+background colour code 
+#1c1c1c
