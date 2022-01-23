@@ -6,8 +6,8 @@
           <div class="text-left"></div>
         </div>
         <div class="">
-          <div class="text-center">
-            <img src="../assets/home pages/seabet-logo.png" alt="" />
+          <div class="seae12">
+            <img  src="../assets/home pages/seabet-logo.png" alt="" />
           </div>
         </div>
         <div class="">
@@ -17,7 +17,7 @@
         </div>
       </div>
     </div>
-    <div class="bord"></div>
+ 
 
     <Header /> 
 

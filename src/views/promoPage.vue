@@ -6,7 +6,7 @@
           <div class="text-left"></div>
         </div>
         <div class="">
-          <div class="text-center">
+          <div class="seae12">
             <img src="../assets/home pages/seabet-logo.png" alt="" />
           </div>
         </div>
@@ -36,11 +36,13 @@
         <img
           src="https://160539-464172-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2019/10/Birthday-Bonus-Promo-723x383-1.jpg" />
 
-      </div>
-    </div>
-    <div class="text-end">
       <a class="chat" href="#"><i class="fa fa-comment-o ml-1 promo98" aria-hidden="true"></i> &nbsp;Chat</a>
+      </div>
+      
     </div>
+   
+     
+ 
     <div class="footer1">
       <p class="Copyright1">
         Copyright 2021 SEABEAT MY. All right reserved.

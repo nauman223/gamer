@@ -6,7 +6,7 @@
           <div class="text-left"></div>
         </div>
         <div class="">
-          <div class="text-center">
+          <div class="seae12">
             <img src="../assets/home pages/seabet-logo.png" alt="" />
           </div>
         </div>
@@ -17,7 +17,7 @@
         </div>
       </div>
     </div>
-    <div class="bord"></div>
+
 
     <Header />
     <div class="promo21">
@@ -108,19 +108,19 @@
           </div>
         </div>
       </div>
-      <div class="spacer-80"></div>
-
-      <div class="footer1">
-        <p class="Copyright1">Copyright 2021 SEABEAT MY. All right reserved.</p>
-
-        <div class="chatapp">
+    <div class="chatapp">
           <div></div>
-          <div class="superpower1">
+          <div class="chatapp12 chapi">
             <a class="" href="#"
               ><i class="fa fa-comment-o superpowers3421" aria-hidden="true"></i
             ></a>
           </div>
-        </div>
+        </div>    
+
+      <div class="footer1">
+        <p class="Copyright1">Copyright 2021 SEABEAT MY. All right reserved.</p>
+
+      
       </div>
     </div>
   </div>

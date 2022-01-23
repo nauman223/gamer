@@ -6,7 +6,13 @@
     height: 100vh;
     position: relative;
     background-color: #1c1c1c;
-    padding: 0px;
+
+}
+
+.cont_12 {
+    height: 100%;
+    position: relative;
+    background-color: #1c1c1c;
 }
 
 .taskbar {
@@ -21,10 +27,26 @@
     padding: 35px;
 }
 
+@media (min-width:0px) and (max-width:392px) {
+    .taskbar-grid {
+        grid-gap: 10px;
+        grid-template-columns: 50% 50%;
+    }
+
+    .seae12 {
+        position: relative;
+        right: 86px;
+    }
+}
+
+.seae12 {
+    text-align: center;
+}
+
 .bars {
     text-align: left !important;
-    color: #c8a65c;
-    border: 1px solid #c8a65c;
+    color: #cdab63;
+    border: 1px solid #fcee8c;
     font-size: 33px;
     background-color: #1c1c1c;
     box-shadow: 0 0px 7px #c8a65c, 0 0px 7px #c8a65c;
@@ -115,6 +137,15 @@
         font-size: 27px;
     }
 
+    .chat {
+        padding: 10px 15px !important;
+        font-size: 14px !important;
+    }
+
+    .Copyright1 {
+        font-size: 10px;
+    }
+
 
 }
 
@@ -154,7 +185,7 @@
 
     background: #000000 !important;
     padding: 15px 0px;
- 
+
 
 }
 
@@ -481,7 +512,8 @@
     text-decoration: none;
     position: relative;
     top: 11px;
-    color:  #f3e996;
+    color: #f8ee99;
+
 }
 
 .login1 {
@@ -549,19 +581,22 @@
 
 .chat {
     background-color: #e0c672;
-    color: #281f1b;
+    color: #281f1b !important;
     border: 1px solid #e0c672;
-    width: 19px;
-    position: relative;
-    padding: 23px 58px;
+    width: -35px;
+    position: absolute;
+    padding: 15px 36px;
+    right: 15px;
     text-decoration: none;
     /* color: wheat; */
     border-radius: 66px;
-    top: 18px;
-    font-size: 25px;
+    /* top: 18px; */
+    bottom: 15px;
+    font-size: 23px;
     font-weight: 700;
     z-index: 1;
 }
+
 
 .bonus {
     padding-top: 0px;
@@ -602,6 +637,36 @@ td {
     border: 1px solid #939192;
     background-clip: padding-box;
     scroll-snap-align: start;
+}
+
+@media (min-width:300px) and (max-width:400px) {
+    th, td {
+        min-width: 0rem !important;
+
+        padding: 0.2rem !important;
+
+
+        font-size: 11px;
+    }
+
+    .login {
+        font-size: 18px !important;
+    }
+}
+
+@media (min-width:400px) and (max-width:500px) {
+    th, td {
+        min-width: 2rem !important;
+
+        padding: 0.6rem !important;
+
+
+        font-size: 11px;
+    }
+
+    .login {
+        font-size: 24px !important;
+    }
 }
 
 tbody tr:last-child th,
@@ -659,18 +724,20 @@ tbody th {
     color: #080808;
 }
 
-.superpower1 {
+.chatapp12 {
     background-color: #e1c976;
     color: #080808;
     height: 62px;
     width: 65px;
     z-index: 1;
     border-radius: 51px;
-    position: relative;
-    bottom: -80px;
-    left: -25px;
+    position: absolute;
+    bottom: 8px;
+    right: 1px;
 
 }
+
+
 .superpower1re {
     background-color: #e1c976;
     color: #080808;
@@ -712,12 +779,13 @@ tbody th {
 }
 
 .malay {
-    color: #f3e996;
+    color: #d7bf69;
     font-weight: 400;
 }
 
 .prefer-us {
     color: white;
+    font-size: 12px;
 }
 
 .chain1 {
@@ -828,7 +896,7 @@ tbody th {
 
 .imgbox {
     text-align: center;
-   
+
 }
 
 figure {
@@ -939,19 +1007,23 @@ figcaption p {
     bottom: 57px;
     z-index: 1;
 }
-.text-flag{
+
+.text-flag {
     text-align: right;
 }
-.bonus11{
+
+.bonus11 {
     padding: 34px;
     padding-top: 0px;
     margin: auto;
 }
-.laung123{
+
+.laung123 {
     position: relative;
     top: 15px;
 }
-.message-icon{
+
+.message-icon {
     background-color: #333333;
     border-radius: 100%;
     height: 136px;
@@ -959,22 +1031,55 @@ figcaption p {
     width: 136px;
     position: absolute;
     bottom: 39px;
-    font-size: 61px;
+    font-size: 107px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.message-icon a i{
+
+.message-icon a i {
     font-size: 59px;
     color: #cdab63;
     position: relative;
     top: 10px;
 }
-.volume123{
-    color:#f3e996 ;
+
+@media (min-width:200px) and (max-width:500px) {
+    .message-icon {
+        height: 92px;
+        width: 92px;
+        font-size: 68px;
+        position: relative;
+    }
+
+}
+
+@media (min-width:500px) and (max-width:765px) {
+    .message-icon {
+        height: 94px;
+        width: 94px;
+        font-size: 76px;
+        position: inherit;
+        position: relative;
+    }
+}
+
+@media (min-width:765px) and (max-width:992px) {
+    .message-icon {
+        height: 120px;
+        width: 120px;
+        font-size: 95px;
+        position: inherit;
+        position: relative;
+    }
+}
+
+.volume123 {
+    color: #f8ee99;
     font-size: 22px;
 }
-.login-sys123{
+
+.login-sys123 {
     padding: 35px;
     margin: auto;
 }
@@ -995,13 +1100,15 @@ figcaption p {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
     background-color: #555;
 }
-.bonuswe12{
+
+.bonuswe12 {
     padding: 35px;
     padding-top: 0px;
     margin: auto;
     margin-top: 0px;
 }
-.superpower1231{
+
+.superpower1231 {
     background-color: #e1c976;
     color: #080808;
     height: 62px;
@@ -1012,10 +1119,12 @@ figcaption p {
     /* bottom: 94px; */
     left: -60px;
 }
-.Regulsr{
-    color:  #e1c976;
+
+.Regulsr {
+    color: #e1c976;
 }
-.scrol{
+
+.scrol {
     height: 46vh;
     overflow: auto;
 }
@@ -1036,25 +1145,35 @@ figcaption p {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
     background-color: #555;
 }
-.fabies121{
-    grid-template-columns: auto auto auto auto  auto auto  auto;
+
+.fabies121 {
+    grid-template-columns: auto auto auto auto auto auto auto;
     display: grid;
     grid-gap: 22px;
 }
 
+.fabies1 {
+    display: flex;
+}
+
+.loader23 {
+    left: 5px;
+    top: 15px;
+}
+
 .header .bottom-nav1 {
     display: flex;
-    
+
     bottom: 0;
     left: 0;
     right: 0;
     padding: 0.8rem 0;
-    background-color:#1c1c1c;
+    background-color: #1e1e1e;
     z-index: 99;
     will-change: transform;
     transform: translateZ(0);
-    border-top: 2px solid #cdab63;
-    border-bottom: 2px solid #cdab63;
+    border-top: 2px solid #d6b868;
+    border-bottom: 2px solid #d6b868;
 }
 
 .header .bottom-nav1-item {
@@ -1085,14 +1204,17 @@ figcaption p {
     color: white;
     margin-top: 10px;
 }
-.myimag1{
+
+.myimag1 {
     height: 56px;
     cursor: pointer;
 }
+
 .chatapp121 {
     display: flex;
     justify-content: space-between;
 }
+
 .superpowers3421 {
     font-size: 28px !important;
     color: #080808;
@@ -1101,7 +1223,8 @@ figcaption p {
     left: 18px;
     font-weight: bold;
 }
-.superpower-power{
+
+.superpower-power {
     background-color: #e1c976;
     color: #080808;
     height: 62px;
@@ -1111,30 +1234,57 @@ figcaption p {
     bottom: 24px;
     border-radius: 51px;
     right: 32px;
- 
-    
+
+
 }
 
- 
+.superpower-power12 {
+    background-color: #e1c976;
+    color: #080808;
+    height: 62px;
+    width: 65px;
+    position: absolute;
+    z-index: 22;
 
-.pointer{
+    border-radius: 51px;
+    right: -2px;
+
+
+
+}
+
+.touck {
+    position: relative;
+    bottom: 14px;
+}
+
+.chapi {
+    position: absolute;
+    right: 28px;
+}
+
+.pointer {
     cursor: pointer !important;
 }
-.birth1{
+
+.birth1 {
     display: flex;
 }
-.volum-louder{
-    color:  #e1c976 ;
+
+.volum-louder {
+    color: #f8ee99;
     font-size: 22px;
     padding: 9px 25px;
 }
-.refer1 p{
+
+.refer1 p {
     position: relative;
-    color:  #e1c976;
+    color: #f8ee99;
     top: 6px;
     left: -19px;
 }
-.login-syssys{
+
+.login-syssys {
     padding: 35px;
     padding-top: 0px;
     margin-top: 0px;
@@ -1142,32 +1292,150 @@ figcaption p {
     position: relative;
     bottom: 13px;
 }
-.messa121{
-    color:#e1c976 ;
+
+.messa121 {
+    color: #e1c976;
 }
-.CONTENT2121{
+
+.CONTENT2121 {
     padding: 35px;
     padding-top: 0px;
     margin: auto;
     font-size: 13px;
 }
-.textrih{
+
+.textrih {
     display: flex;
     justify-content: flex-end;
-    
+
 }
-.volum-louder1r{
-    color:  #e1c976 ;
+
+.volum-louder1r {
+    color: #f8ee99;
     font-size: 22px;
- 
+
 }
-.fabiesase{
+
+.fabiesase {
     position: relative;
     bottom: 12px;
 }
-.promo98{
+
+.promo98 {
     font-weight: bold;
 }
-.spacer-70{
+
+.spacer-70 {
     height: 90px;
+}
+
+.slider {
+    border: none !important;
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+    .th, td {
+        min-width: 0rem !important;
+        padding: 0rem !important;
+        font-size: 7px;
+    }
+
+    .superpower-power12 {
+        height: 36px;
+        width: 36px;
+
+
+    }
+
+    .touck {
+        position: relative;
+        bottom: 14px;
+    }
+
+    .superpowers3421 {
+        font-size: 20px !important;
+        color: #080808;
+        position: relative;
+        top: 8px;
+        left: 10px;
+        font-weight: bold;
+        z-index: 22;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 392px) {
+
+    .taskbar-grid112 {
+        grid-template-columns: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .flaf0 {
+        text-align: left;
+    }
+}
+
+
+@media (min-width: 200px) and (max-width: 440px) {
+    .liveac {
+        height: 98px;
+        width: 16px;
+        top: 223px;
+    }
+
+    .fishinhh {
+        height: 98px;
+        width: 16px;
+        top: 223px;
+    }
+
+
+    .pro9 {
+        font-size: 10px !important;
+    }
+}
+
+@media (min-width: 440px) and (max-width: 588px) {
+    .liveac {
+        height: 98px;
+        width: 16px;
+        top: 204px;
+    }
+
+    .fishinhh {
+        height: 98px;
+        width: 16px;
+        top: 204px;
+    }
+
+
+    .pro9 {
+        font-size: 12px !important;
+    }
+}
+
+@media (min-width: 588px) and (max-width: 768px) {
+    .liveac {
+        height: 98px;
+        width: 16px;
+        top: 204px;
+    }
+
+    .fishinhh {
+        height: 98px;
+        width: 16px;
+        top: 204px;
+    }
+
+
+    .pro9 {
+        font-size: 12px !important;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+    .botton1 {
+        height: 30px !important;
+    }
 }

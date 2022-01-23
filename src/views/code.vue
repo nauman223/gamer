@@ -342,9 +342,9 @@
           <div class="bottom-nav-item active">
             <div class="bottom-nav-link">
               <figure class="imgbox">
-                <img src="../assets/home pages/home icon.png" alt="" />
+                <img class="botton1" src="../assets/home pages/home icon.png" alt="" />
                 <figcaption>
-                  <p>Home</p>
+                  <p class="pro9">Home</p>
                 </figcaption>
               </figure>
             </div>
@@ -354,13 +354,14 @@
             <div class="bottom-nav-link">
               <figure class="imgbox">
                 <img
-                  id="myImage"
-                  class="myimag1"
+                
+                  id="myImage "
+                  class="myimag1 botton1"
                   src="../assets/home pages/promotion icon.png"
                   alt=""
                 />
                 <figcaption>
-                  <p>Promotion</p>
+                  <p class="pro9"> Promotion</p>
                 </figcaption>
               </figure>
             </div>
@@ -370,12 +371,12 @@
             <div class="bottom-nav-link">
               <figure class="imgbox">
                 <img
-                  class="myimag1"
+                  class="myimag1 botton1"
                   src="../assets/home pages/contact us icon.png"
                   alt=""
                 />
                 <figcaption>
-                  <p>Contact us</p>
+                  <p class="pro9">Contact us</p>
                 </figcaption>
               </figure>
             </div>
@@ -419,7 +420,7 @@ export default {
     align-items: center;
     font-size: 38px;
     height: 126px;
-    width: 29px;
+        width: 19px;
 }
 .liveac i{
       color: #cdab63;
@@ -436,7 +437,7 @@ export default {
     align-items: center;
     font-size: 38px;
     height: 126px;
-    width: 29px;
+       width: 19px;
     opacity: 22;
     z-index: 33;
 }
@@ -446,5 +447,92 @@ color: #cdab63;
 .slider {
 
     border:none !important;
+}
+@media (min-width:200px) and (max-width:440px) {
+
+    .liveac{
+       height: 98px;
+    width: 16px;
+    top: 223px;
+    }
+      .fishinhh{
+       height: 98px;
+    width: 16px;
+    top: 223px;
+    } 
+    .pro9{
+      font-size: 13px;
+    }
+}
+@media (min-width:440px) and (max-width:462px) {
+
+    .liveac{
+        height: 98px;
+        width: 16px;
+            top: 222px;
+    }
+      .fishinhh{
+        height: 98px;
+        width: 16px;
+            top: 222px;
+    } 
+    .pro9{
+      font-size: 12px;
+    }
+}
+@media (min-width:462px) and (max-width:588px) {
+
+    .liveac{
+        height: 98px;
+        width: 16px;
+        top: 204px;
+    }
+      .fishinhh{
+        height: 98px;
+        width: 16px;
+        top: 204px;
+    } 
+    .pro9{
+      font-size: 12px;
+    }
+}
+@media (min-width:588px) and (max-width:768px) {
+
+    .liveac{
+        height: 98px;
+        width: 16px;
+        top: 204px;
+    }
+      .fishinhh{
+        height: 98px;
+        width: 16px;
+        top: 204px;
+    }
+}
+@media (min-width:768px) and (max-width:998px) {
+
+    .liveac{
+        height: 126px;
+    width: 16px;
+    top: 184px;
+    }
+      .fishinhh{
+         height: 126px;
+    width: 16px;
+    top: 184px;
+    }
+}
+@media (min-width:998px) and (max-width:1193px) {
+
+    .liveac{
+        height: 126px;
+    width: 16px;
+    top: 184px;
+    }
+      .fishinhh{
+         height: 126px;
+    width: 16px;
+    top: 184px;
+    }
 }
 </style>

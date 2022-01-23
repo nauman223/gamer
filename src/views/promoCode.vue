@@ -1,12 +1,12 @@
 <template>
-  <div class="container-sm cont">
+  <div class="container-sm cont_12">
     <div class="taskbar">
       <div class="taskbar-grid">
         <div class="">
           <div class="text-left"></div>
         </div>
         <div class="">
-          <div class="text-center">
+          <div class="seae12">
             <img src="../assets/home pages/seabet-logo.png" alt="" />
           </div>
         </div>
@@ -17,21 +17,20 @@
         </div>
       </div>
     </div>
-    <div class="bord"></div>
+ 
     <Header />
     <div class="promo"> 
       <div class="bonus">
         <div class="bonuswe12">
-          <div class="fabies">
+              <div class="fabies1">
             <div>
               <div class="mt-3">
-                <a href="#" class="sasea">
-                  <img src="../assets/home pages/speaker icon.png" alt="" />&nbsp; Seabet
-                  MY!
-                </a>
+                <i class="fa fa-volume-up volum-louder1r"></i>
               </div>
             </div>
-            <div></div>
+            <div>
+              <a href="#" class="loder1 loader23">Welcome to seabet</a>
+            </div>
           </div>
           <div class="main mt-2">
             <br /><br />
@@ -83,12 +82,8 @@
                   </tr>
                 </tbody>
               </table>
-            </div>
-            <div class="spacer-70"></div>
-            <div class="spacer-80"></div>
-            <div class="chatapp121">
-              <div></div>
-              <div class="superpower-power">
+              <div class="touck">
+              <div class="superpower-power12">
                 <a class="" href="#"
                   ><i
                     class="fa fa-comment-o superpowers3421"
@@ -97,6 +92,12 @@
                 ></a>
               </div>
             </div>
+            </div>
+          
+           
+            <div class="spacer-80"></div>
+             <div class="spacer-80"></div>
+          
           </div>
         </div>
       </div>

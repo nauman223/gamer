@@ -6,7 +6,7 @@
           <div class="text-left"></div>
         </div>
         <div class="">
-          <div class="text-center">
+          <div class="seae12">
             <img src="../assets/home pages/seabet-logo.png" alt="" />
           </div>
         </div>
@@ -25,8 +25,8 @@
         <div class="bonuswe12">
           <div class="fabies121">
             <div>
-              <div class="mt-3">
-                <img src="../assets/home pages/speaker icon.png" alt="" />
+               <div class="mt-3">
+                <i class="fa fa-volume-up volum-louder1r"></i>
               </div>
             </div>
             <div>
@@ -54,9 +54,9 @@
             <div class="bottom-nav-link">
 
               <figure class="imgbox">
-                  <img id="myImage" class="myimag1" src="../assets/seabet website/seabet vip pages/regular.png" alt="">
+                  <img id="myImage botton1" class="myimag1" src="../assets/seabet website/seabet vip pages/regular.png" alt="">
                 <figcaption>
-                  <p>REGULAR</P>
+                  <p class="pro9">REGULAR</P>
                 </figcaption>
               </figure>
 
@@ -67,9 +67,9 @@
             <div class="bottom-nav-link">
 
               <figure class="imgbox">
-                  <img class="myimag1" src="../assets/seabet website/seabet vip pages/gold.png" alt="">
+                  <img class="myimag1 botton1" src="../assets/seabet website/seabet vip pages/gold.png" alt="">
                 <figcaption>
-                  <p>GOLD</P>
+                  <p  class="pro9"> GOLD</P>
                 </figcaption>
               </figure>
 
@@ -80,9 +80,9 @@
             <div class="bottom-nav-link">
 
               <figure class="imgbox">
-                  <img  class="myimag1" src="../assets/seabet website/seabet vip pages/platinum.png" alt="">
+                  <img  class="myimag1 botton1" src="../assets/seabet website/seabet vip pages/platinum.png" alt="">
                 <figcaption>
-                <p>PLATINUM</p>
+                <p  class="pro9">PLATINUM</p>
                 </figcaption>
               </figure>
 
@@ -93,9 +93,9 @@
               <div class="bottom-nav-link">
   
                 <figure class="imgbox">
-                  <img class="myimag1" src="../assets/seabet website/seabet vip pages/diamond.png" alt="">
+                  <img class="myimag1 botton1" src="../assets/seabet website/seabet vip pages/diamond.png" alt="">
                   <figcaption>
-                    <p>DIAMOND</P>
+                    <p  class="pro9">DIAMOND</P>
                   </figcaption>
                 </figure>
   
@@ -105,9 +105,9 @@
               <div class="bottom-nav-link">
   
                 <figure class="imgbox">
-                  <img class="myimag1" src="../assets/seabet website/seabet vip pages/seabet vip.png" alt="">
+                  <img class="myimag1 botton1" src="../assets/seabet website/seabet vip pages/seabet vip.png" alt="">
                   <figcaption>
-                    <p>SIGNATURE</P>
+                    <p  class="pro9">SIGNATURE</P>
                   </figcaption>
                 </figure>
   
@@ -276,14 +276,17 @@
           </div>
         </div>
       </div>
-      <div class="chatapp">
-        <div></div>
-        <div class="superpower1re">
-          <a class="" href="#"><i class="fa fa-comment-o superpowers34" aria-hidden="true"></i></a>
-        </div>
-      </div>
+
 
     </div>
+       <div class="chatapp">
+          <div></div>
+          <div class="chatapp12 chapi">
+            <a class="" href="#"
+              ><i class="fa fa-comment-o superpowers3421" aria-hidden="true"></i
+            ></a>
+          </div>
+        </div>  
     <div class="footer1">
       <p class="Copyright1">
         Copyright 2021 SEABEAT MY. All right reserved.
@@ -304,5 +307,39 @@ export default {
 </script>
 
 <style>
+
+@media (min-width:200px) and (max-width:440px) {
+
+    .liveac{
+       height: 98px;
+    width: 16px;
+    top: 223px;
+    }
+      .fishinhh{
+       height: 98px;
+    width: 16px;
+    top: 223px;
+    } 
+    .pro9{
+      font-size: 13px !important;
+    }
+}
+@media (min-width:440px) and (max-width:588px) {
+
+    .liveac{
+        height: 98px;
+        width: 16px;
+        top: 204px;
+    }
+      .fishinhh{
+        height: 98px;
+        width: 16px;
+        top: 204px;
+    } 
+    .pro9{
+      font-size: 12px !important;
+    }
+}
+
 
 </style>

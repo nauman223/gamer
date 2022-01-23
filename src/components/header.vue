@@ -8,12 +8,12 @@
               <figure class="imgbox" :href="href" @click="navigate">
                 <img
                   id="myImage"
-                  class="myimag1"
+                  class="myimag1 botton1"
                   src="../assets/home pages/promotion icon.png"
                   alt=""
                 />
                 <figcaption>
-                  <p class="pointer">PROMO</p>
+                  <p class="pointer pro9">PROMO</p>
                 </figcaption>
               </figure>
             </router-link>
@@ -26,12 +26,12 @@
               <figure class="imgbox" :href="href" @click="navigate">
                 <img
                   id="myImage"
-                  class="myimag1"
+                  class="myimag1 botton1"
                   src="../assets/home pages/slot icon 2.png"
                   alt=""
                 />
                 <figcaption>
-                  <p class="pointer">HISTORY</p>
+                  <p class="pointer pro9">HISTORY</p>
                 </figcaption>
               </figure>
             </router-link>
@@ -41,14 +41,14 @@
         <div class="bottom-nav1-item">
           <div class="bottom-nav1-link">
             <router-link to="/" v-slot="{ href, navigate }">
-            <figure class="imgbox" :href="href" @click="navigate">
-              <img
-                class="myimag1"
-                src="../assets/home pages/home icon.png"
-                alt=""
-              />
-              <figcaption></figcaption>
-            </figure>
+              <figure class="imgbox" :href="href" @click="navigate">
+                <img
+                  class="myimag1 botton1"
+                  src="../assets/home pages/home icon.png"
+                  alt=""
+                />
+                <figcaption></figcaption>
+              </figure>
             </router-link>
           </div>
         </div>
@@ -59,12 +59,12 @@
               <figure class="imgbox" :href="href" @click="navigate">
                 <img
                   id="myImage"
-                  class="myimag1"
+                  class="myimag1 botton1"
                   src="../assets/home pages/profile icon.png"
                   alt=""
                 />
                 <figcaption>
-                  <p class="pointer">PROFILE</p>
+                  <p class="pointer pro9">PROFILE</p>
                 </figcaption>
               </figure>
             </router-link>
@@ -76,12 +76,12 @@
               <figure class="imgbox" :href="href" @click="navigate">
                 <img
                   id="myImage"
-                  class="myimag1"
+                  class="myimag1 botton1"
                   src="../assets/home pages/contact us icon.png"
                   alt=""
                 />
                 <figcaption>
-                  <p class="pointer">CONTACT</p>
+                  <p class="pointer pro9">CONTACT</p>
                 </figcaption>
               </figure>
             </router-link>
@@ -99,4 +99,6 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped></style>
+
+<style scoped>
+</style>
