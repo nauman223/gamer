@@ -1,4 +1,22 @@
-<template>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- bootstrap 5 link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <!-- Font awesome icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <!-- swqiper link -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="index.css" />
+  <title>Project Game</title>
+</head>
+
+<body>
   <div class="container-sm cont">
     <div class="taskbar">
       <div class="taskbar-grid">
@@ -6,25 +24,98 @@
           <div class="text-left"></div>
         </div>
         <div class="">
-          <div class="seae12">
-            <img src="../assets/home pages/seabet-logo.png" alt="" />
+          <div class="text-center">
+            <img src="home pages/seabet-logo.png" alt="" />
           </div>
         </div>
         <div class="">
           <div class="text-flag">
-            <img src="../assets/home pages/english languege.png" alt="" />
+            <img src="home pages/english languege.png" alt="" />
           </div>
         </div>
       </div>
     </div>
-    <Header />
+    
     <div class="promo">
+      <header class="header">
+   
+        <nav class="bottom-nav1">
+
+
+          <div class="bottom-nav1-item active">
+            <div class="bottom-nav1-link">
+
+              <figure class="imgbox">
+                  <img id="myImage" class="myimag1" src="home pages/promotion icon.png" alt="">
+                <figcaption>
+                  <p>PROMO</P>
+                </figcaption>
+              </figure>
+
+            </div>
+          </div>
+
+          <div class="bottom-nav1-item">
+            <div class="bottom-nav1-link">
+
+              <figure class="imgbox">
+                  <img class="myimag1" src="home pages/slot icon 2.png" alt="">
+                <figcaption>
+                  <p>HISTORY</P>
+                </figcaption>
+              </figure>
+
+            </div>
+          </div>
+
+          <div class="bottom-nav1-item">
+            <div class="bottom-nav1-link">
+
+              <figure class="imgbox">
+                  <img  class="myimag1" src="home pages/home icon.png" alt="">
+                <figcaption>
+                
+                </figcaption>
+              </figure>
+
+            </div>
+          </div>
+
+          <div class="bottom-nav1-item">
+              <div class="bottom-nav1-link">
+  
+                <figure class="imgbox">
+                  <img class="myimag1" src="home pages/profile icon.png" alt="">
+                  <figcaption>
+                    <p>PROFILE</P>
+                  </figcaption>
+                </figure>
+  
+              </div>
+            </div>
+            <div class="bottom-nav1-item">
+              <div class="bottom-nav1-link">
+  
+                <figure class="imgbox">
+                  <img class="myimag1" src="home pages/contact us icon.png" alt="">
+                  <figcaption>
+                    <p>CONTACT</P>
+                  </figcaption>
+                </figure>
+  
+              </div>
+            </div>
+
+        </nav>
+      
+    </header>
+
       <div class="bonus">
         <div class="bonuswe12">
           <div class="fabies121">
             <div>
               <div class="mt-3">
-                <i class="fa fa-volume-up volum-louder1r"></i>
+                <img src="home pages/speaker icon.png" alt="" />
               </div>
             </div>
             <div>
@@ -40,85 +131,82 @@
           </div>
         </div>
       </div>
+    
+
 
       <header class="header">
+   
         <nav class="bottom-nav1">
+
+
           <div class="bottom-nav1-item active">
             <div class="bottom-nav-link">
+
               <figure class="imgbox">
-                <img
-                  id="myImage botton1"
-                  class="myimag1"
-                  src="../assets/seabet website/seabet vip pages/regular.png"
-                  alt=""
-                />
+                  <img id="myImage" class="myimag1" src="seabet website/seabet vip pages/regular.png" alt="">
                 <figcaption>
-                  <p class="pro9">REGULAR</p>
+                  <p>REGULAR</P>
                 </figcaption>
               </figure>
+
             </div>
           </div>
 
           <div class="bottom-nav-item">
             <div class="bottom-nav-link">
+
               <figure class="imgbox">
-                <img
-                  class="myimag1 botton1"
-                  src="../assets/seabet website/seabet vip pages/gold.png"
-                  alt=""
-                />
+                  <img class="myimag1" src="seabet website/seabet vip pages/gold.png" alt="">
                 <figcaption>
-                  <p class="pro9">GOLD</p>
+                  <p>GOLD</P>
                 </figcaption>
               </figure>
+
             </div>
           </div>
 
           <div class="bottom-nav-item">
             <div class="bottom-nav-link">
+
               <figure class="imgbox">
-                <img
-                  class="myimag1 botton1"
-                  src="../assets/seabet website/seabet vip pages/platinum.png"
-                  alt=""
-                />
+                  <img  class="myimag1" src="seabet website/seabet vip pages/platinum.png" alt="">
                 <figcaption>
-                  <p class="pro9">PLATINUM</p>
+                <p>PLATINUM</p>
                 </figcaption>
               </figure>
+
             </div>
           </div>
 
           <div class="bottom-nav-item">
-            <div class="bottom-nav-link">
-              <figure class="imgbox">
-                <img
-                  class="myimag1 botton1"
-                  src="../assets/seabet website/seabet vip pages/diamond.png"
-                  alt=""
-                />
-                <figcaption>
-                  <p class="pro9">DIAMOND</p>
-                </figcaption>
-              </figure>
+              <div class="bottom-nav-link">
+  
+                <figure class="imgbox">
+                  <img class="myimag1" src="seabet website/seabet vip pages/diamond.png" alt="">
+                  <figcaption>
+                    <p>DIAMOND</P>
+                  </figcaption>
+                </figure>
+  
+              </div>
             </div>
-          </div>
-          <div class="bottom-nav-item">
-            <div class="bottom-nav-link">
-              <figure class="imgbox">
-                <img
-                  class="myimag1 botton1"
-                  src="../assets/seabet website/seabet vip pages/seabet vip.png"
-                  alt=""
-                />
-                <figcaption>
-                  <p class="pro9">SIGNATURE</p>
-                </figcaption>
-              </figure>
+            <div class="bottom-nav-item">
+              <div class="bottom-nav-link">
+  
+                <figure class="imgbox">
+                  <img class="myimag1" src="seabet website/seabet vip pages/seabet vip.png" alt="">
+                  <figcaption>
+                    <p>SIGNATURE</P>
+                  </figcaption>
+                </figure>
+  
+              </div>
             </div>
-          </div>
+
         </nav>
-      </header>
+      
+    </header>
+
 
       <div class="scrol">
         <div class="vip-benefitss">
@@ -224,9 +312,9 @@
               </div>
               <div class="ACCOUNT-VIP"></div>
             </div>
-
+  
             <!-- VIP bonus Grid End -->
-
+  
             <!-- VIP UPGRADE EEQUIPMENT Grid START -->
             <div class="vip-09">
               <p class="upgrade-vip text-uppercase">tier upgrade equipments</p>
@@ -241,7 +329,7 @@
               </div>
               <div class="ACCOUNT-VIP"></div>
             </div>
-
+  
             <!-- VIP UPGRADE EEQUIPMENT Grid end -->
             <!-- VIP MAINTAINANCE REQUIREMENTS Grid START -->
             <div class="vip-09">
@@ -258,7 +346,7 @@
               <div class="ACCOUNT-VIP"></div>
             </div>
             <!-- VIP MAINTAINANCE REQUIREMENTS Grid END -->
-
+  
             <!-- VIP MEMBERSHIP RENEWEL Grid START -->
             <div class="vip-09">
               <p class="upgrade-vip">TIERMEMBERSHIP RENEWEL</p>
@@ -277,60 +365,39 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="chatapp">
-      <div></div>
-      <div class="chatapp12 chapi">
-        <a class="" href="#"
-          ><i class="fa fa-comment-o superpowers3421" aria-hidden="true"></i
-        ></a>
+      <div class="chatapp">
+        <div></div>
+        <div class="superpower1re">
+          <a class="" href="#"><i class="fa fa-comment-o superpowers34" aria-hidden="true"></i></a>
+        </div>
       </div>
+
     </div>
     <div class="footer1">
-      <p class="Copyright1">Copyright 2021 SEABEAT MY. All right reserved.</p>
+      <p class="Copyright1">
+        Copyright 2021 SEABEAT MY. All right reserved.
+      </p>
     </div>
   </div>
-</template>
 
-<script>
-import Header from "../components/header.vue";
-export default {
-  name: "vip",
-  components: {
-    Header,
-  },
-};
-</script>
+  <script>
+    function changeImage() {
+      var image = document.getElementById("myImage");
+      if (image.src.match("home pages/promotion icon.png")) {
+        image.src = "home pages/home icon.png";
+      } else {
+        image.src = "home pages/promotion icon.png";
+      }
+    }
+  </script>
 
-<style>
-@media (min-width: 200px) and (max-width: 440px) {
-  .liveac {
-    height: 98px;
-    width: 16px;
-    top: 223px;
-  }
-  .fishinhh {
-    height: 98px;
-    width: 16px;
-    top: 223px;
-  }
-  .pro9 {
-    font-size: 13px !important;
-  }
-}
-@media (min-width: 440px) and (max-width: 588px) {
-  .liveac {
-    height: 98px;
-    width: 16px;
-    top: 204px;
-  }
-  .fishinhh {
-    height: 98px;
-    width: 16px;
-    top: 204px;
-  }
-  .pro9 {
-    font-size: 12px !important;
-  }
-}
-</style>
+  <!-- swiper script -->
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="main.js"></script>
+  <!-- bootstarp 5 script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
